@@ -1,32 +1,33 @@
 {
-  "name": "CallsMusic",
-  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "name": "MUSIC-PLAYER-PM",
+  "description": "OPEN-SOURCE BOT TO PLAY SONGS IN YOUR TELEGRAM GROUP'S VOICE CHAT .",
+  "logo": "https://telegra.ph/file/1cf5eeec49e9421766ec5.jpg",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/suprojects/CallsMusicHeroku",
+  "repository": "https://github.com/PURHSHOTTAM/MUSIC-PLAYER-PM",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram session string",
+      "description": "PYROGRAM STRING SESSION LINK GIVEN IN REPO",
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "A bot token from @BotFather",
+      "description": "A BOT TOKEN FROM @BotFather",
       "required": true
     },
     "API_ID": {
-      "description": "App ID from my.telegram.org/apps",
+      "description": "APP ID FROM my.telegram.org/apps",
       "required": true
     },
     "API_HASH": {
-      "description": "App hash from my.telegram.org/apps",
+      "description": "APP HASH FROM my.telegram.org/apps",
       "required": true
     },
     "SUDO_USERS": {
-      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "description": "LIST OF USER ID COUNTED AS ADMIN EVERYWHERE (separated by space).",
       "required": true
     },
     "DURATION_LIMIT": {
-      "description": "Max audio duration limit for downloads (minutes).",
+      "description": "MAX AUDIO DURATION LIMIT FOR DOWNLOADS (minutes).",
       "required": true,
       "value": "10"
     }
